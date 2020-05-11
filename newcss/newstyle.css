@@ -1,0 +1,39 @@
+body {
+    background-image: url("https://media3.giphy.com/media/BHNfhgU63qrks/giphy.gif?cid=ecf05e4789dbce2333ac2e74bc5393efcdbd7e6e8ea26371&rid=giphy.gif");
+    background-size: auto 100vh;
+    font-family: Arial;
+  }
+  
+  .menu{
+    background-color: #EFF8FB
+      
+  }
+  
+  a{
+    color: #BE81F7;
+    text-decoration:none;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  .menu ul{
+   display:flex;
+   justify-content: space-between;
+  }
+  
+  .menu li{
+    list-style: none;
+  }
+  
+  .site-subtitle,
+  .site-title{
+    color:rgb(16, 8, 61);
+    text-align:center;
+
+  }
+  
+  .site-subtitle{
+    font-style: italic;
+  }
