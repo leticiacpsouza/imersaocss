@@ -1,0 +1,129 @@
+/*reset do css*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/236x/4c/9d/6c/4c9d6c1f03dfc41497e57f203e0b9771.jpg");
+    background-size: auto 500vh;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+  }
+  /*Se a tela tiver ao menos 400px vai carregar esses estilos = breackpoint*/
+@media (min-width:400px) {
+body{
+  font-size:14px;
+}
+}
+
+   header{
+     height: 100vh;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+
+   }
+
+  .menu{
+    background-color:rgb(255, 255, 255);
+    size: 25px;
+     position: fixed;
+     width: 100vw; 
+     top: 0;
+     
+  }
+  
+  a{
+    color:rgb(67, 18, 107);
+    text-decoration:none;
+    font-size: 18px;   
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  .menu ul{
+   display:flex;
+   justify-content: space-between;
+  }
+  
+  .menu li{
+    list-style: none;
+    ;
+  }
+  .menu a{
+    display:block;
+    padding:10px 20px;
+    box-shadow:10px 10px 10px rgb(119, 32, 177);
+    
+  }
+  
+  .site-subtitle,
+  .site-title{
+    color:rgb(243, 215, 255);
+    text-align:center;
+
+  }
+  .site-title{
+    font-size: 4em;
+    text-shadow:8px 5px  blueviolet;
+    letter-spacing: 20px;
+    font-family: 'Fredericka the Great', cursive;
+  }
+  
+  .site-subtitle{
+    font-style: italic;
+    font-family: 'Source Code Pro', monospace;
+    line-height: 2.4em;
+  }
+figure{
+  display: flex;
+  flex-direction: column;
+}
+
+figcaption{
+font-size: 20px;
+padding:10px;
+font-family: 'Source Code Pro', monospace;
+box-shadow: 50px 50px 50px white inset;
+}
+
+.portfolio{
+  background-image: url("https://i.pinimg.com/236x/be/27/93/be279349cc1cc19e547c91f31b68fe29.jpg") ;
+  background-size: auto 100vh;
+  padding:2em;
+  height: calc(100vh - 4em - 48px - 1.5em) ;
+}
+
+.portfolio h2{
+  font-family: 'Special Elite', cursive;
+  color: rgb(119, 32, 177);
+  text-shadow: 2px 5px  white;
+margin-bottom: 2em;
+font-size: 2em;
+text-align: center;
+border-style: solid;
+border-width: 5px;
+border-bottom-width: 0px;
+border-color:#5F04B4;
+}
+
+.portfolio .grid{
+  display: grid;
+  gap:2em;
+  grid-template-columns: repeat(4,240px); /*usar @media*/
+  justify-content: center;
+}
+
+.portfolio figure{
+  text-align: center;
+}
+
+  .img-portfolio{
+  height: 180px;
+    width: 240px;
+    object-fit: cover;
+    border-radius: 100%;
+  }
