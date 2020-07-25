@@ -6,25 +6,58 @@
     <title>Leticia Pinheiro</title>
     <link rel="stylesheet" href="newcss/newstyle.css">
     <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Roboto&family=Source+Code+Pro&family=Special+Elite&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/42f95365f3.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav class="menu">
-          <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Meus Projetos</a></li>
-            <li><a href="#">Contato</a></li>
+          <ul class="container">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#portfolio">Meus Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
           </ul>
         </nav>
-        <div>
+        <div class="titulo">
          <h1 class="site-title">Leticia Pinheiro </h1>
          <h2 class="site-subtitle">Computer Science Student</h2>
         </div>
     </header> 
-    <section class="portfolio">
+    <section class="sobre container" id="sobre">
+      <h2>Sobre</h2>
+
+     <!-- ajustar depois <figure class="profile">
+
+        <img= src=".img/ideias.jpg" alt="Leticia Pinheiro"> -->
+
+      </figure>
+      <p>
+         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut doloribus provident laborum, ipsam amet incidunt optio officia magni, iusto sapiente similique et ut dolorem laudantium obcaecati! Dicta ea accusantium vero!
+      </p>
+        <p>
+           Possimus autem numquam natus distinctio blanditiis doloremque hic placeat adipisci vitae, nobis reiciendis tempore saepe incidunt error provident magnam rem vero iusto velit praesentium sequi beatae! Quisquam minus dignissimos voluptate?
+          Hic, omnis officiis modi nam quam dignissimos sequi adipisci dolorem voluptatem esse corrupti, voluptatibus possimus numquam voluptates iste.
+        </p>
+        <p>
+          Illum officia omnis nam! Cupiditate voluptatum, doloremque harum quia temporibus porro recusandae?
+        </p>
+        <p>
+          Accusamus, eveniet exercitationem excepturi distinctio laboriosam similique ipsa libero! Ad dolorum, molestias ducimus quia fuga minus quo in porro autem nihil id eligendi deleniti similique? Nobis sequi voluptatum quibusdam unde.
+          Ex numquam nemo temporibus ut voluptate ipsa sapiente, vero similique, aut eos, exercitationem id facilis accusantium dolor iusto tenetur! Itaque veniam minima molestias doloribus porro tenetur, corporis laboriosam nemo dolor?
+        </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, possimus error iste modi unde sunt perferendis nisi pariatur reprehenderit assumenda inventore mollitia ad.
+         Asperiores, aut similique! Rerum laboriosam quia esse?Eligendi nemo accusantium autem ab accusamus temporibus necessitatibus mollitia fuga officiis, natus nesciunt. Unde ducimus sapiente, consequuntur, atque quam cumque ad maiores ex repellat soluta libero dolorem vel aliquid temporibus!
+      </p>
+      <p>
+        Este site foi construido durante a <a href="https://www.alura.com.br/imersao-css">imersão CSS da Alura</a> 
+      </p>
+     
+
+    </section>
+    <section class="portfolio container" id="portfolio">
        <h2>Meus Projetos</h2>
        <div class="grid">
-       <figure>
+       <figure class="card-front">
          <img class="img-portfolio" src="./img/ideias.jpg" alt="ideias">
         <figcaption><a href="#">ideias</a></figcaption>
       </figure>
@@ -41,6 +74,25 @@
         <figcaption><a href="#">Códigos<a></figcaption>
       </figure>
     </div>
+    </section>
+    <section class="contato container" id="contato">
+      <h2>Contato</h2>
+
+      <div class="grid icons">
+        <a target="_blank" href="#">
+          <i class="fab fa-github"></i>
+        </a>
+        <a target="_blank" href="#">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a target="_blank" href="#">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a target="_blank" href="#">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+
     </section>
       
 </body>
